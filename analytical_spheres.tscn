@@ -1,0 +1,23 @@
+[gd_scene load_steps=6 format=3 uid="uid://68hfqfcc8r65"]
+
+[ext_resource type="PackedScene" uid="uid://de4vq2yf28stk" path="res://AnalyticalSpheres.glb" id="1_46e1y"]
+[ext_resource type="Texture2D" uid="uid://d1cudalxjj3wc" path="res://Neutral.hdr" id="2_lo663"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_4hpbx"]
+panorama = ExtResource( "2_lo663" )
+
+[sub_resource type="Sky" id="Sky_345pq"]
+sky_material = SubResource( "PanoramaSkyMaterial_4hpbx" )
+
+[sub_resource type="Environment" id="Environment_0yk3x"]
+background_mode = 1
+background_color = Color(1, 1, 1, 1)
+sky = SubResource( "Sky_345pq" )
+ambient_light_source = 3
+reflected_light_source = 2
+glow_enabled = true
+
+[node name="AnalyticalSpheres" instance=ExtResource( "1_46e1y" )]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." index="0"]
+environment = SubResource( "Environment_0yk3x" )
