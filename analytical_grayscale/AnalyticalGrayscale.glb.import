@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://de4vq2yf28stk"
-path="res://.godot/imported/AnalyticalSpheres.glb-ae1fcffec40d9f14f49bcf9245ccb500.scn"
+uid="uid://iegboh3dfkn7"
+path="res://.godot/imported/AnalyticalGrayscale.glb-624fd2fccdfc1af80a5d8c1f94516c53.scn"
 
 [deps]
 
-source_file="res://AnalyticalSpheres.glb"
-dest_files=["res://.godot/imported/AnalyticalSpheres.glb-ae1fcffec40d9f14f49bcf9245ccb500.scn"]
+source_file="res://analytical_grayscale/AnalyticalGrayscale.glb"
+dest_files=["res://.godot/imported/AnalyticalGrayscale.glb-624fd2fccdfc1af80a5d8c1f94516c53.scn"]
 
 [params]
 
